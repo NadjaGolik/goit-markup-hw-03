@@ -50,17 +50,17 @@ body{
 }
 .header-menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+}
+
+.address-contacts-links{
+    margin-left: auto;
 }
 .contacts{
     display: flex;
     column-gap: 40px;
     margin-left: auto;
-    
-    
-}
-.address-contacts-links{
-    margin-left: auto;
+    gap: 40px;
 }
 .contacts-social {
     color: var(--slate-color);
@@ -69,8 +69,14 @@ body{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
-.
+.mail{
+    margin-right: 40px;
+}
+.tel{
+    margin-left: 0;
+}
 
 .contacts-social:hover {
     color: #404bbf;
@@ -78,6 +84,17 @@ body{
 
 .contacts-social:focus {
     color: #404bbf;
+}
+.section-title-text{
+    padding: 188px 0;
+}
+.section-title-activity{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
+    max-width: 496px;
 }
 .page-header-container{
     display: flex;
@@ -128,6 +145,7 @@ body{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 
 }
 .menu-link-item:hover{
@@ -168,8 +186,10 @@ body{
     font-size: 16px;
     cursor: pointer;
 }
-    
 
+.section-title-text{
+    padding: 120px 0;
+}
 .section-button-order{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -180,6 +200,10 @@ body{
     background: var(--iris-color);
     cursor: pointer;
     border: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 .section-button-order:hover{
 background-color: #404BBF
@@ -199,20 +223,25 @@ background-color: #404BBF
     background-color: var(--navyblue-color);
 }
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .section-title-text{
     background-color: var(--navyblue-color);
 }
 .section-solutions-title{
     font-weight: 500;
 }
-.section-title-activity{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue-color);
-}
+
 .feature-list{
     color: var(--navyblue-color);
     font-size: 20px;
