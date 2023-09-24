@@ -77,7 +77,23 @@ body{
 .tel{
     margin-left: 0;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.section-solutions-title {
+    background-color: var(--navyblue-color);
+
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-solutions-title{
+    background-color: var(--navyblue-color);
+    max-width: 496px;
+}
 .contacts-social:hover {
     color: #404bbf;
 }
@@ -87,6 +103,7 @@ body{
 }
 .section-title-text{
     padding: 188px 0;
+    padding: 188px 0
 }
 .section-title-activity{
     font-weight: 500;
@@ -155,14 +172,7 @@ body{
     color: #404bbf;
 }
 
-.section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.section-solutions-title{
-    background-color: var(--navyblue-color);
-    
-}
+
 
 .address-contacts-links{
     font-style: normal;
