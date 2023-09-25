@@ -134,6 +134,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
     
 }
 
@@ -355,4 +357,5 @@ padding-bottom: 120px;
 }
 .footer-business-marketing{
     background-color: var(--navyblue-color);
+    padding: 100px 0;
 }
