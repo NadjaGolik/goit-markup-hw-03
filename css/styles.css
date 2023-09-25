@@ -249,7 +249,17 @@ background-color: #404BBF
 .section-solutions-title{
     font-weight: 500;
 }
-
+.section-scroll-activity{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.feature{
+    display: flex;
+    gap: 24px;
+}
+.feature-activity-strategy{
+    width: calc((100% – 72px)/4);+++++++++++
+}
 .feature-list{
     color: var(--navyblue-color);
     font-size: 20px;
@@ -257,7 +267,9 @@ background-color: #404BBF
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
+    margin-bottom: 8px;
 }
+
 .description-scroll-activity{
     color: var(--slate-color);
     font-size: 16px;
@@ -289,6 +301,7 @@ background-color: #404BBF
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .persone-our-team{
     color: var(--navyblue-color);
@@ -327,7 +340,12 @@ background-color: #404BBF
 
 .our-team{
    background: var(--white, #FFF);
+   display: flex;
+   gap: 24px;
+   width: calc((100% – 72px)/4);
+   border-radius: 0px 0px 4px 4px;
 }
+
 .activity-item{
     background: var(--white, #FFF);
     
