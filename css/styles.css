@@ -282,7 +282,8 @@ padding-bottom: 120px;
 }
 
 .our-team{
-    flex-basis: calc((100% – 72px)/4);
+    width: calc((100% – 72px)/4);
+    margin: 0 auto;
 }
 .our-team-employees{
     padding: 32px 0;
