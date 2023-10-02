@@ -281,9 +281,9 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
 }
 
-.our-team{
+.our-team-experts{
     width: calc((100% – 72px)/4);
-    margin: 0 auto;
+    
 }
 .our-team-employees{
     padding: 32px 0;
