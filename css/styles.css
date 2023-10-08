@@ -60,7 +60,7 @@ body{
     display: flex;
     column-gap: 40px;
     margin-left: auto;
-    gap: 40px;
+
 }
 .contacts-social {
     color: var(--slate-color);
@@ -115,6 +115,7 @@ body{
 }
 .page-header-container{
     display: flex;
+    align-items: center;
 }
 .header-navigation{
     display: flex;
@@ -135,7 +136,7 @@ body{
     text-transform: uppercase;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
+    
     
 }
 
@@ -214,6 +215,7 @@ body{
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 .section-button-order:hover{
 background-color: #404BBF
@@ -250,6 +252,8 @@ background-color: #404BBF
 }
 .section-solutions-title{
     font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .section-scroll-activity{
 padding-top: 120px;
@@ -281,6 +285,25 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
 }
 
+.section-our-team{
+    background-color: var(--cloud-color);
+}
+
+.title-section-team{
+    color: var(--navyblue-color);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.our-team{
+    display: flex;
+    column-gap: 24px;
+}
 .our-team-experts{
     width: calc((100% - 3 * 24px)/4);
     border-radius: 0px 0px 4px 4px;
@@ -288,9 +311,29 @@ padding-bottom: 120px;
 }
 .our-team-employees{
     padding: 32px 0;
+    background: var(--write-color);
 }
-.section-our-team{
-    background-color: var(--cloud-color);
+
+.persone-our-team{
+    color: var(--navyblue-color);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.activity{
+    color: var(--slate-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.job{
+    text-align: center;
 }
 .question{
     color: var(--navyblue-color);
@@ -302,30 +345,19 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
    
 }
-.title-section-team{
+
+
+.services-our-portfolio{
     color: var(--navyblue-color);
+    margin-bottom: 72px;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 36px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
-}
-.persone-our-team{
-    color: var(--navyblue-color);
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-.services-our-portfolio{
-    margin-bottom: 72px;
+
 }
 .social-links{
 display: flex;
@@ -340,9 +372,7 @@ row-gap: 48px;
     border-top: none;
 }
 
-.departments{
-    margin-bottom: 8px;
-}
+
 .marketing{
     color: var(--cloud-color);
     font-size: 16px;
@@ -350,6 +380,7 @@ row-gap: 48px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 .departments{
     color: var(--navyblue-color);
@@ -358,24 +389,11 @@ row-gap: 48px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
-}
-.activity{
-    color: var(--slate-color);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
-.our-team{
-   background: var(--white, #FFF);
-   display: flex;
-   gap: 24px;
-   width: calc((100% – 72px)/4);
-   border-radius: 0px 0px 4px 4px;
-}
+
+
 
 .activity-item{
     background: var(--white, #FFF);
@@ -387,4 +405,7 @@ row-gap: 48px;
 .footer-business-marketing{
     background-color: var(--navyblue-color);
     padding: 100px 0;
+}
+.footer{
+    margin-bottom: 16px;
 }
