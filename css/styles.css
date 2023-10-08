@@ -60,6 +60,7 @@ body{
     display: flex;
     column-gap: 40px;
     margin-left: auto;
+    gap: 40px;
 
 }
 .contacts-social {
@@ -302,7 +303,7 @@ padding-bottom: 120px;
 }
 .our-team{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .our-team-experts{
     width: calc((100% - 3 * 24px)/4);
